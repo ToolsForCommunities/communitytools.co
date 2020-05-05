@@ -235,6 +235,12 @@ a {
   color: #4285f4;
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
+}
+  a:hover {
+    text-decoration: none;
+  }
+
+#home a {
   border-bottom: 3px solid #4285f4;
 }
 

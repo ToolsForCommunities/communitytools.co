@@ -22,47 +22,52 @@
 	<link rel="icon" href="favicon.ico">
 
 	<!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Localize the website -->
 	<!-- <script type="text/javascript" src="js/locale.js"></script> -->
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158586273-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158586273-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-158586273-1');
-  </script>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-158586273-1');
+	</script>
 
 	<!-- Start of Async Drift Code -->
 	<script>
-	"use strict";
+		"use strict";
 
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-	    t.factory = function(e) {
-	      return function() {
-	        var n = Array.prototype.slice.call(arguments);
-	        return n.unshift(e), t.push(n), t;
-	      };
-	    }, t.methods.forEach(function(e) {
-	      t[e] = t.factory(e);
-	    }), t.load = function(t) {
-	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-	      var i = document.getElementsByTagName("script")[0];
-	      i.parentNode.insertBefore(o, i);
-	    };
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('dirv86fgr372');
+		! function() {
+			var t = window.driftt = window.drift = window.driftt || [];
+			if (!t.init) {
+				if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+				t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+					t.factory = function(e) {
+						return function() {
+							var n = Array.prototype.slice.call(arguments);
+							return n.unshift(e), t.push(n), t;
+						};
+					}, t.methods.forEach(function(e) {
+						t[e] = t.factory(e);
+					}), t.load = function(t) {
+						var e = 3e5,
+							n = Math.ceil(new Date() / e) * e,
+							o = document.createElement("script");
+						o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+						var i = document.getElementsByTagName("script")[0];
+						i.parentNode.insertBefore(o, i);
+					};
+			}
+		}();
+		drift.SNIPPET_VERSION = '0.3.1';
+		drift.load('dirv86fgr372');
 	</script>
 	<!-- End of Async Drift Code -->
 
@@ -70,356 +75,73 @@
 
 <body>
 
-  <!-- Cookies -->
-  <div class="cookies-banner">
-    <div class="container">
-      <div>
-        <span>¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.</span>
-        <a href="cookies.html" class="cookies-read">Leer la política de cookies</a>.
-      </div>
-      <a href="#" class="cookies-accept">
-        <button class="white-btn">
-            <span>Me parece bien</span>
-        </button>
-      </a>
-    </div>
-  </div>
-  <!-- /Cookies -->
+	<!-- Cookies -->
+	<div class="cookies-banner">
+		<div class="container">
+			<div>
+				<span>¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.</span>
+				<a href="cookies.html" class="cookies-read">Leer la política de cookies</a>.
+			</div>
+			<a href="#" class="cookies-accept">
+				<button class="white-btn">
+					<span>Me parece bien</span>
+				</button>
+			</a>
+		</div>
+	</div>
+	<!-- /Cookies -->
 
 	<!-- Header -->
 	<header>
-		<!-- Nav -->
-		<nav id="nav" class="navbar">
-			<div class="container">
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand col-xs-2">
-						<a href="#home">
-							<img class="logo" src="img/logo.svg" alt="logo">
-							<img class="logo-alt" src="img/logo.svg" alt="logo">
-						</a>
-					</div>
-					<!-- /Logo -->
-				</div>
-				<!--  Main navigation  -->
-				<ul class="main-nav nav navbar-nav navbar-right">
-          <!-- Login mobile -->
-          <!-- <li class="visible-xs-inline-block pull-right navbar-right">
-            <a href="login.html">
-              <button class="text-btn"><span data-t>cta.access</span></button>
-            </a>
-          </li> -->
-          <!-- /Login mobile -->
-          <!-- Products (desktop only) -->
-					<li class="hidden-xs hidden-sm">
-  					<a href="#discover">Descubre</a>
-					</li>
-					<li class="hidden-xs hidden-sm">
-  					<a href="#connect">Conecta</a>
-					</li>
-					<li class="hidden-xs hidden-sm">
-  					<a href="#automate">Automatiza</a>
-					</li>
-          <!-- /Products -->
-          <!-- CTAs -->
-          <!-- <li class="hidden-xs" style="padding-right: 0px; padding-left: 16px;">
-            <button class="outline-btn" data-t>cta.account</button>
-          </li>
-          <li class="hidden-xs" style="padding-left: 8px;">
-            <button class="main-btn" data-t>cta.startFree</button>
-          </li> -->
-          <li>
-            <a href="mailto:hi@communitytools.co">
-              <button class="outline-btn">Contacto</button>
-            </a>
-          </li>
-          <!-- /CTAs -->
-				</ul>
-				<!-- /Main navigation -->
-			</div>
-		</nav>
-		<!-- /Nav -->
 	</header>
 	<!-- /Header -->
 
-  <!-- Home -->
-  <div id="home" class="section home-wrapper">
-    <!-- container -->
-    <div class="container">
-      <!-- row -->
-      <div class="row middle">
-        <!-- home content -->
-        <div class="col-md-6 col-sm-8">
-          <h1 class="black-text">Conoce a toda tu comunidad</h1>
-          <p class="black-text">Nuestras herramientas te ayudan a encontrar a las personas con las que querrás hablar, filtrando por título, habilidades o industria.</p>
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" required placeholder="Escribe tu correo">
-            </div>
-            <a href>
-              <button class="main-btn">Empezar</button>
-            </a>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept1" type="checkbox" required>
-              <label for="accept1" class="support-text">Acepto la política de privacidad y las condiciones de uso</label>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6 col-sm-8 col-xs-12">
-          <img class="responsive-img" src="img/main.png" alt="product screenshot">
-        </div>
-        <!-- /home content -->
-      </div>
-      <!-- /row -->
-    </div>
-    <!-- /container -->
-  </div>
-  <!-- /Home -->
-
-	<!-- Clients -->
-  <div id="clients" class="section">
-		<!-- Container -->
+	<!-- Home -->
+	<div id="home" class="section">
+		<!-- container -->
 		<div class="container">
-			<!-- Row -->
+			<!-- row -->
 			<div class="row">
-				<!-- Section header -->
-				<!-- <div class="section-header text-center">
-          <h4>Join this companies and boost your community</h4>
-				</div> -->
-				<!-- /Section header -->
-				<!-- content -->
-				<div class="centered-logos">
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/google.png" alt="google for startups">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/tetuanvalley.png" alt="tetuan valley">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/seedrocket.png" alt="seedrocket">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/osw.png" alt="open source weekends">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/collisions.png" alt="collisions">
-          </div>
+				<div class="col-md-6 col-sm-8 col-xs-12">
+					<img class="responsive-img" src="img/bot-poster.png" alt="product screenshot">
 				</div>
-				<!-- <div class="text-center">
-  				<h5>More than 789 people connected in 2019</h5>
-				</div> -->
-				<!-- /content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Clients -->
+				<!-- home content -->
+				<div class="col-md-8 col-sm-12">
+					<!-- <h1 class="black-text" data-t>home.heading</h1> -->
+					<p>
+						Let's talk about <strong>communities</strong><stron>.
+						<br><br>
+						Working from a co-working space or a big open office is a blessing. Or it <em>should</em> be. At least, that was the idea. But at the end of the day, it's a place filled with strangers and opportunities that never arrive.
+						<br><br>
+						When you arrive as a newcomer you feel that it's impossible to meet anyone, and as a community builder, you feel that you're always missing the connections that have to be made.
+						<br><br>
+						We know this kind of problems quite well. That's why we teamed up with Google for Startups to start developing tools to improve the experience in digital and physical communities.
+						<br><br>
+						After a comprehensive research, we launched our first tool: the <strong>directory</strong>, a website where you can meet everyone in your community. You can see who works where, their skillset, and if they need help with something. You can add your profile and your startup, if you have one.
+						<br><br>
+						You can see one of our directories by clicking <a href="https://tlv.gfs.directory/#/directory">here</a>.
+						<br><br>
+						Anyone with an admin account can review and edit the info of every community member from a simple dashboard. It's pretty easy. We like easy.
+						<br><br>
+						In the last couple of months, we've been helping communities in more than 60 countries at co-working spaces like Google for Startups, Correos Labs and Gaza Sky Geeks, and accelerators like Techstars and Tetuan Valley.
+						<br><br>
+						If you want your own directory, discuss ideas for a new tool or just to say hi, feel free to use our chatbot or drop us a line to <a href="mailto:hi@communitytools.co">hi@communitytools.co</a>
+						<br><br>
+						We speak English and Spanish fluently, and we're learning Portuguese, Italian, German and Arabic (because we love languages!)
+						<br><br>
+						<strong>We'll love to hear from you,</strong>
+						<br>
+						<em><a href="https://www.linkedin.com/in/codingcarlos/">Carlos</a> and <a href="https://www.linkedin.com/in/ivoriginal/">Ivo</a>, co-founders of Community Tools and <a href="https://commitsans.com/">Commit Sans</a>.</em>
+					</stron></p>
+				</div>
 
-	<!-- Tools -->
-	<div id="tools" class="section md-padding bg-grey">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row">
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Todo lo que necesitas para activar tu comunidad</h2>
-				</div>
-				<!-- /Section header -->
-				<!-- Content -->
-        <div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#discover">
-                <img class="responsive-img" src="img/directory-poster.png">
-                <h3>Descubre</h3>
-                <p>Un portfolio digital de gente y equipos de tu compañía o comunidad.</p>
-                <button class="text-btn">Saber más</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#connect">
-                <img class="responsive-img" src="img/bot-poster.png">
-                <h3>Conecta</h3>
-                <p>Encuentra la ayuda que necesitas filtrando gente por habilidad o compañía</p>
-                <button class="text-btn">Saber más</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#automate">
-                <img class="responsive-img" src="img/assistant-poster.png">
-                <h3>Automatiza</h3>
-                <p>Todo el conocimiento de tu organización accesible desde un único sitio</p>
-                <a href="#automate"><button class="text-btn">Saber más</button></a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Content -->
+				<!-- /home content -->
 			</div>
-			<!-- /Row -->
+			<!-- /row -->
 		</div>
-		<!-- /Container -->
+		<!-- /container -->
 	</div>
-	<!-- /Tools -->
-
-	<!-- Directory -->
-	<div id="discover" class="section md-padding">
-		<!-- Container -->
-		<div class="container">
-      <!-- Row -->
-			<div class="row middle">
-				<!-- Content -->
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-              <i class="material-icons">search</i>
-              <h5 class="supporting-title">Descubre</h5>
-            </div>
-            <h2 class="title">No vuelvas a olvidar un nombre</h2>
-					</div>
-					<h4>Todas las personas de tu empresa o tu comunidad, con su cara, nombre y lo que hacen, en un mismo lugar. Se acabó mirar LinkedIn y mails antiguos para poder decir "buenos días".</h4>
-          <!-- temporal fix -->
-          <img class="responsive-img hidden-md hidden-lg" src="img/directory.png" alt="directory screenshot">
-          <!-- / -->
-          <buttons>
-            <a href="https://madrid.gfs.directory/#/directory" target="_blank" style="display: flex;">
-              <button class="outline-btn">Ver demo</button>
-            </a>
-            <a href="#CTA" style="display: flex;">
-              <button class="main-btn">
-                <i class="material-icons">add</i>
-                <span>Crear directorio</span>
-              </button>
-            </a>
-          </buttons>
-				</div>
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/directory.png" alt="directory screenshot">
-				</div>
-        <!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Directory -->
-
-	<!-- Slackbot -->
-	<div id="connect" class="section md-padding bg-grey">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row middle">
-				<!-- Content -->
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/bot.png" alt="slack bot screenshot">
-				</div>
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-                <i class="material-icons">people</i>
-              <h5 class="supporting-title">Conecta</h5>
-            </div>
-						<h2 class="title">Conexiones inteligentes, no aleatorias</h2>
-					</div>
-					<h4>No pierdas más tiempo buscando la mejor conexión. Pon los datos a trabajar para tí: generamos recomendaciones personalizadas.</h4>
-          <!-- temporal fix -->
-          <img class="responsive-img hidden-md hidden-lg" src="img/bot.png" alt="slack bot screenshot">
-          <buttons>
-            <a href="#CTA" style="display: flex;">
-              <button class="main-btn"><i class="fab fa-slack"></i><span>Añadir a Slack</span></button>
-            </a>
-						<a href="#CTA" style="display: flex;">
-							<button class="main-btn"><i class="fab fa-discord"></i><span>Añadir a Discord</span></button>
-						</a>
-          </buttons>
-				</div>
-				<!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Slackbot -->
-
-  <!-- Assitant -->
-	<div id="automate" class="section md-padding">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row middle">
-			  <!-- Content -->
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-              <i class="material-icons">bubble_chart</i>
-              <h5 class="supporting-title">Automatiza</h5>
-            </div>
-						<h2 class="title">El conocimiento de tu espacio, accesible</h2>
-					</div>
-					<h4>Transforma los silos de información en conocimiento compartido, organizado y fácil de encontrar.</h4>
-          <img class="responsive-img hidden-md hidden-lg" src="img/assistant.png" alt>
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" required placeholder="Escribe tu correo">
-            </div>
-              <button class="main-btn">Notifícame</button>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept2" type="checkbox" required>
-              <label for="accept2" class="support-text">Acepto la política de privacidad y las condiciones de uso</label>
-            </div>
-          </form>
-				</div>
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/assistant.png" alt="assitant screenshot">
-				</div>
-				<!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Assitant -->
-
-	<!-- CTA -->
-	<div id="CTA" class="section md-padding">
-		<!-- Container -->
-		<div class="container sm-padding">
-			<!-- Row -->
-			<div class="row white-text middle">
-        <div class="col-md-5 col-xs-12 col-sm-8">
-          <h3 class="white-text">Empieza ya mismo</h3>
-          <h4 class="white-text">Lleva tu comunidad al siguiente nivel. Crea tu cuenta gratuita ya mismo.</h4>
-        </div>
-        <div class="col-md-5 col-xs-12">
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" required placeholder="Escribe tu correo">
-            </div>
-            <a href>
-              <button class="white-btn">Empezar</button>
-            </a>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept3" type="checkbox" required>
-              <label for="accept3" class="support-text">Acepto la política de privacidad y las condiciones de uso</label>
-            </div>
-          </form>
-        </div>
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /CTA -->
+	<!-- /Home -->
 
 	<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-light">
@@ -428,28 +150,22 @@
 			<!-- Row -->
 			<div class="row">
 				<div class="col-md-12">
-					<!-- footer logo -->
-					<div class="footer-logo">
-            <img src="img/logo.svg" alt="logo">
-						<h4>Conoce a toda tu comunidad</h4>
+					<div class="footer-follow">
+						<a href="privacy.html">Privacy</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="tos.html">Terms of Service</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="cookies.html">Cookies</a>
 					</div>
-					<!-- /footer logo -->
-          <div class="footer-follow">
-            <a href="privacy.html">Privacidad</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="tos.html">Términos y condiciones</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="cookies.html">Política de cookies</a>
-          </div>
-          <!-- Social links -->
-          <div class="footer-follow">
-            <a href="https://www.facebook.com/communitytools/">Facebook</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://twitter.com/communitytools">Twitter</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://medium.com/awesome-communities">Blog</a>
-          </div>
-          <!-- /Social links -->
+					<!-- Social links -->
+					<div class="footer-follow">
+						<a href="https://www.facebook.com/communitytools/">Facebook</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="https://twitter.com/communitytools">Twitter</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="https://medium.com/awesome-communities">Blog</a>
+					</div>
+					<!-- /Social links -->
 				</div>
 			</div>
 			<!-- /Row -->
@@ -464,9 +180,9 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/cookies.js"></script>
 
-  <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6535436.js"></script>
-  <!-- End of HubSpot Embed Code -->
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6535436.js"></script>
+	<!-- End of HubSpot Embed Code -->
 
 </body>
 
