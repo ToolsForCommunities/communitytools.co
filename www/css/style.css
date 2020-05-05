@@ -173,8 +173,12 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #565656;
+    color: black;
     box-sizing: border-box;
+}
+
+p {
+  font-size: 2.4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -228,10 +232,10 @@ h5 {
 }
 
 a {
-    color: #4285f4;
-    text-decoration: none;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
+  color: #4285f4;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+  border-bottom: 3px solid #4285f4;
 }
 
 ::-moz-selection {
@@ -256,13 +260,8 @@ ul, ol {
   vertical-align: middle;
 }
 
-/* makes the value prop explanation bigger */
-#home p {
-  font-size: 2rem;
-}
-
 #clients h4 {
-  font-weight: bold; 
+  font-weight: bold;
   margin-bottom: 8px;
   font-size: 3rem;
 }
@@ -629,7 +628,7 @@ header {
 
 .about a:hover {
   text-decoration: none;
-} 
+}
 
 #tools .section-header {
   margin-bottom: 24px;
@@ -789,7 +788,7 @@ header {
     background: #4285f4;
   }
   #CTA input:focus::placeholder {
-    color: rgba(255, 255, 255, .56);  
+    color: rgba(255, 255, 255, .56);
   }
   #CTA input[type="email"] {
     color: white;
@@ -817,6 +816,8 @@ header {
 
 #footer {
     position: relative;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 100px;
 }
 
 .footer-logo {
@@ -864,6 +865,11 @@ header {
 
 footer h5 {
   font-weight: 400;
+}
+
+footer a {
+  border-bottom: 0px !important;
+  text-decoration: none !important;
 }
 
 /*** /FOOTER ***/
@@ -921,32 +927,32 @@ footer h5 {
 }
 
 @media only screen and (max-width: 991px) {
-  
+
   label {
     display: inline;
   }
-  
+
   .section-icon {
     margin-bottom: 24px;
   }
-  
+
   /* aligns gdpr check center */
   .check {
     display: inline-block;
   }
-  
+
   .navbar-form {
     margin-top: 16px;
   }
-  
+
   #CTA {
     padding: 16px;
   }
-  
+
   #CTA .container {
     padding: 40px 24px;
   }
-  
+
   .navbar-form .form-control {
     margin-bottom: 8px;
   }
@@ -954,7 +960,7 @@ footer h5 {
   #home {
     text-align: center;
   }
-  
+
   buttons {
     display: flex;
     margin-top: 16px;
@@ -969,7 +975,7 @@ footer h5 {
       align-content: center;
       width: 100%;
     }
-  
+
   #home {
     padding-bottom: 40px;
   }
@@ -985,91 +991,91 @@ footer h5 {
     #home h1 {
           font-size: 4rem;
       }
-  
+
   .centered-logos {
     margin: 24px 16px;
     /* border-top: 1px solid #eaeaea; */
   }
-  
+
   .section-icon h5 {
     margin-top: 4px;
     font-size: 2.4rem;
   }
-  
+
   form button {
     width: 100%;
     margin-top: 4px;
     border-radius: 4px;
   }
-  
+
   .supporting-txt {
       margin: 0px;
   }
-  
+
   .form-group input {
     border: 1px solid #000;
     border-radius: 4px;
     height: 56px;
     text-align: center;
   }
-  
+
   h3 {
   font-size: 3rem;
   }
-  
+
   #clients {
     border-top: 1px solid #eaeaea;
     margin: 0px 24px;
   }
-  
+
   .middle {
     flex-direction: column;
   }
-  
+
   #discover .row, #automate .row, #home .row {
     flex-direction: column-reverse;
   }
-  
+
   #CTA .responsive-img {
     margin-bottom: 24px;
   }
-  
+
   button {
     height: 56px;
   }
-  
+
   #nav button {
     height: auto;
   }
-  
+
   #CTA input {
     background: #4285f4;
     border: 2px solid white;
     border-radius: 4px;
   }
-  
+
   #discover, #connect, #automate, #testimonial, #CTA {
     text-align: center;
     padding-top: 64px;
     padding-bottom: 64px;
   }
-  
+
   #discover .supporting-title, #connect .supporting-title, #automate .supporting-title {
     margin-left: 0px;
   }
-  
+
   #discover .section-icon, #connect .section-icon, #automate .section-icon {
     flex-direction: column;
   }
-  
+
   .small-client-logo {
     display: inline-block;
   }
-  
+
   .cookies-banner .container {
     width: auto;
   }
-  
+
   .cookies-accept {
     display: inline-block;
     background-color: #fff;
@@ -1078,7 +1084,7 @@ footer h5 {
     .cookies-accept button {
       margin: 0px;
     }
-  
+
   .cookies-banner {
     width: 100%;
     margin-left: 0px;
@@ -1096,7 +1102,7 @@ footer h5 {
       width: 100%;
       text-align: center;
     }
-  
+
   #discover img, #connect img, #automate img {
     margin: 16px 0px;
   }
@@ -1104,34 +1110,34 @@ footer h5 {
 }
 
 @media only screen and (max-width: 768px) {
-  
+
   .navbar-form .form-group {
     margin-bottom: 0px;
   }
-  
+
   #home {
     padding-bottom: 16px;
   }
-  
+
   #nav button {
     height: 54px;
     border: none;
   }
-  
+
   /* fixes section padding */
   .md-padding {
     padding: 96px 0px;
   }
-  
+
   /* changes client logo padding */
   .centered-logos .work {
     padding: 0px 4px;
   }
-  
+
   #tools {
     padding: 60px 0px 60px;
   }
-  
+
   #nav {
     height: 56px;
   }
@@ -1152,11 +1158,11 @@ footer h5 {
         float: none;
     }
   */
-  
+
   .navbar-header {
     display: inline-block;
   }
-  
+
   .main-nav {
     float: right;
     display: inline-block;
@@ -1181,7 +1187,7 @@ footer h5 {
       float: none;
       text-align: center;
   }
-    
+
   #home h1 {
       font-size: 3rem;
     }
@@ -1190,7 +1196,7 @@ footer h5 {
     padding: 0px 16px;
     text-align: left;
   }
-  
+
   footer a {
     width: 100%;
     display: inline-block;
@@ -1199,7 +1205,7 @@ footer h5 {
 }
 
 @media only screen and (min-width: 1025px) {
-  
+
   .form-control {
     width: 280px !important;
   }
@@ -1348,7 +1354,7 @@ footer h5 {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 991px) {
-  
+
   .cookies-banner {
     padding: 32px 16%;
     text-align: center;
@@ -1359,29 +1365,29 @@ footer h5 {
 /* bootstrap fixes */
 
 @media (max-width: 768px) {
-  
+
   .about {
     height: 100%;
   }
-  
+
   .navbar-brand {
     margin-left: 8px;
   }
-  
+
   /* fixes margin in nav */
   .navbar-nav {
     margin: 0px;
     margin-right: -16px;
   }
-  
+
   .navbar-nav>li>a {
     padding: 0px;
   }
-  
+
 }
 
 @media (min-width: 992px) {
-  
+
   h2 {
     font-size: 4rem;
   }
@@ -1392,16 +1398,8 @@ footer h5 {
 
 }
 
-@media (min-width: 1920px) {
-
-  .container {
-    width: 1300px;
-  }
-
-}
-
 @media (min-width: 768px) {
-  
+
   .navbar-form .form-control {
     width: 100%;
   }
