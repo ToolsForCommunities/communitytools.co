@@ -1,0 +1,60 @@
+{
+  "html_lang": "en",
+	"title": "Community Tools",
+  "nav": {
+    "discover": "Discover",
+    "connect": "Connect",
+    "automate": "Automate"
+  },
+  "cta": {
+    "account": "Log In",
+    "access": "Access",
+    "startFree": "Create Account",
+    "startNow": "Get started",
+    "addToSlack": "Add to Slack",
+    "addToDiscord": "Añadir a Discord",
+    "mail": "Write your mail",
+    "create": "Create directory",
+    "demo": "See demo",
+    "notify": "Notify me"
+  },
+  "home": {
+    "heading": "Meet everyone in your community",
+    "value": "Our tools can help you finding who you'll want to talk to, browsing by job title, skillset or industry."
+  },
+  "features": {
+    "heading": "All you need to activate your community",
+    "first": "Discover",
+    "firstExplanation": "A digital roster of people and teams for your company or community.",
+    "second": "Connect",
+    "secondExplanation": "Find the help you need browsing people by skill or company.",
+    "third": "Automate",
+    "thirdExplanation": "All the knowledge of your organization accessible from one place.",
+    "readMore": "Learn more"
+  },
+  "discover": {
+    "heading": "Never forget a name again",
+    "explanation": "Every member of your company or community, with their face, name and what they do, in the same place. <br>You won't need to check LinkedIn or old mails to say \"good morning\" anymore."
+  },
+  "connect": {
+    "heading": "Intelligent connections, not random",
+    "explanation": "Stop wasting your time looking for the best conection. Put the data to work for you: we generate personalized recommendations."
+  },
+  "automate": {
+    "heading": "Stop asking your space manager",
+    "explanation": "Transform the information silos into shared knowledge, organised and easy to browse."
+  },
+  "supportingText": "Create your free account",
+  "followUs": "Follow us:",
+  "privacy": "Privacy",
+  "tos": "Terms & Conditions",
+  "cookies": "Cookie policy",
+  "cookiePolicy": {
+    "text": "¡Hi! To build better products for you, we use our own cookies as well as 3rd parties",
+    "accept": "I'm ok with that",
+    "readMore": "Read cookie policy"
+  },
+  "startToday": "Get started right now",
+  "cta2": "Take your community to the next level. Create your free account today.",
+  "contact": "Contact"
+}

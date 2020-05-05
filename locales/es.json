@@ -1,0 +1,60 @@
+{
+  "html_lang": "en",
+	"title": "Community Tools",
+  "nav": {
+    "discover": "Descubre",
+    "connect": "Conecta",
+    "automate": "Automatiza"
+  },
+  "cta": {
+    "account": "Acceder",
+    "access": "Acceder",
+    "startFree": "Crear cuenta",
+    "startNow": "Empezar",
+    "addToSlack": "Añadir a Slack",
+    "addToDiscord": "Añadir a Discord",
+    "mail": "Escribe tu correo",
+    "create": "Crear directorio",
+    "demo": "Ver demo",
+    "notify": "Notifícame"
+  },
+  "home": {
+    "heading": "Conoce a toda tu comunidad",
+    "value": "Nuestras herramientas te ayudan a encontrar a las personas con las que querrás hablar, filtrando por título, habilidades o industria."
+  },
+  "features": {
+    "heading": "Todo lo que necesitas para activar tu comunidad",
+    "first": "Descubre",
+    "firstExplanation": "Un portfolio digital de gente y equipos de tu compañía o comunidad.",
+    "second": "Conecta",
+    "secondExplanation": "Encuentra la ayuda que necesitas filtrando gente por habilidad o compañía",
+    "third": "Automatiza",
+    "thirdExplanation": "Todo el conocimiento de tu organización accesible desde un único sitio",
+    "readMore": "Saber más"
+  },
+  "discover": {
+    "heading": "No vuelvas a olvidar un nombre",
+    "explanation": "Todas las personas de tu empresa o tu comunidad, con su cara, nombre y lo que hacen, en un mismo lugar. Se acabó mirar LinkedIn y mails antiguos para poder decir \"buenos días\"."
+  },
+  "connect": {
+    "heading": "Conexiones inteligentes, no aleatorias",
+    "explanation": "No pierdas más tiempo buscando la mejor conexión. Pon los datos a trabajar para tí: generamos recomendaciones personalizadas."
+  },
+  "automate": {
+    "heading": "El conocimiento de tu espacio, accesible",
+    "explanation": "Transforma los silos de información en conocimiento compartido, organizado y fácil de encontrar."
+  },
+  "supportingText": "Acepto la política de privacidad y las condiciones de uso",
+  "followUs": "Síguenos:",
+  "privacy": "Privacidad",
+  "tos": "Términos y condiciones",
+  "cookies": "Política de cookies",
+  "cookiePolicy": {
+    "text": "¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.",
+    "accept": "Me parece bien",
+    "readMore": "Leer la política de cookies"
+  },
+  "startToday": "Empieza ya mismo",
+  "cta2": "Lleva tu comunidad al siguiente nivel. Crea tu cuenta gratuita ya mismo.",
+  "contact": "Contacto"
+}
