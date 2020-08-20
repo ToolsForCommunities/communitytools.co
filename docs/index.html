@@ -37,35 +37,6 @@
     gtag('config', 'UA-158586273-1');
   </script>
 
-	<!-- Start of Async Drift Code -->
-	<script>
-	"use strict";
-
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-	    t.factory = function(e) {
-	      return function() {
-	        var n = Array.prototype.slice.call(arguments);
-	        return n.unshift(e), t.push(n), t;
-	      };
-	    }, t.methods.forEach(function(e) {
-	      t[e] = t.factory(e);
-	    }), t.load = function(t) {
-	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-	      var i = document.getElementsByTagName("script")[0];
-	      i.parentNode.insertBefore(o, i);
-	    };
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('dirv86fgr372');
-	</script>
-	<!-- End of Async Drift Code -->
-
 </head>
 
 <body>
@@ -112,7 +83,13 @@
           <!-- /Login mobile -->
 					<!-- Products (desktop only) -->
 					<li class="hidden-xs hidden-sm">
-  					<a href="#discover">nav.about</a>
+  					<a href="about.html">Why us?</a>
+					</li>
+					<li class="hidden-xs hidden-sm">
+						<a href="about.html">Support</a>
+					</li>
+					<li class="hidden-xs hidden-sm">
+  					<a href="about.html">Collaborate</a>
 					</li>
           <!-- /Products -->
           <!-- CTAs -->
@@ -124,7 +101,7 @@
           </li> -->
           <li>
             <a href="mailto:hi@communitytools.co">
-              <button class="outline-btn">Contacto</button>
+              <button class="outline-btn">Get in touch</button>
             </a>
           </li>
           <!-- /CTAs -->
@@ -140,108 +117,57 @@
   <div id="home" class="section home-wrapper">
     <!-- container -->
     <div class="container">
-      <!-- row -->
-      <div class="row middle">
+			<!--  -->
+      <div class="row">
         <!-- home content -->
-        <div class="col-md-6 col-sm-8">
+        <div class="col-md-6 col-sm-8 text-center">
           <h1 class="black-text">Conoce a toda tu comunidad</h1>
           <p class="black-text">Nuestras herramientas te ayudan a encontrar a las personas con las que querrás hablar, filtrando por título, habilidades o industria.</p>
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" required placeholder="Escribe tu correo">
-            </div>
-            <a href>
-              <button class="main-btn">Empezar</button>
-            </a>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept1" type="checkbox" required>
-              <label for="accept1" class="support-text">Acepto la política de privacidad y las condiciones de uso</label>
-            </div>
-          </form>
+					<a href>
+						<button class="main-btn">
+              <i class="material-icons">add</i>
+              <span>Crear directorio</span>
+						</button>
+					</a>
         </div>
-        <div class="col-md-6 col-sm-8 col-xs-12">
-          <img class="responsive-img" src="img/main.png" alt="product screenshot">
+        <div class="col-md-10 col-sm-8 col-xs-12">
+          <img class="responsive-img" src="img/directory.png" alt="product screenshot">
         </div>
         <!-- /home content -->
       </div>
-      <!-- /row -->
-    </div>
-    <!-- /container -->
-  </div>
-  <!-- /Home -->
-
-	<!-- Clients -->
-  <div id="clients" class="section">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
+			<!-- / -->
+			<!-- Clients -->
 			<div class="row">
 				<!-- Section header -->
 				<!-- <div class="section-header text-center">
-          <h4>Join this companies and boost your community</h4>
+					<h4>Join this companies and boost your community</h4>
 				</div> -->
 				<!-- /Section header -->
 				<!-- content -->
 				<div class="centered-logos">
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/google.png" alt="google for startups">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/tetuanvalley.png" alt="tetuan valley">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/seedrocket.png" alt="seedrocket">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/osw.png" alt="open source weekends">
-          </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
-            <img class="img-responsive" src="img/clients/collisions.png" alt="collisions">
-          </div>
+					<div class="col-md-2 col-xs-4 col-sm-2 work">
+						<img class="img-responsive" src="img/clients/google.png" alt="google for startups">
+					</div>
+					<div class="col-md-2 col-xs-4 col-sm-2 work">
+						<img class="img-responsive" src="img/clients/tetuanvalley.png" alt="tetuan valley">
+					</div>
+					<div class="col-md-2 col-xs-4 col-sm-2 work">
+						<img class="img-responsive" src="img/clients/seedrocket.png" alt="seedrocket">
+					</div>
+					<div class="col-md-2 col-xs-4 col-sm-2 work">
+						<img class="img-responsive" src="img/clients/osw.png" alt="open source weekends">
+					</div>
+					<div class="col-md-2 col-xs-4 col-sm-2 work">
+						<img class="img-responsive" src="img/clients/collisions.png" alt="collisions">
+					</div>
 				</div>
-				<!-- <div class="text-center">
-  				<h5>More than 789 people connected in 2019</h5>
-				</div> -->
 				<!-- /content -->
 			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Clients -->
-
-	<!-- CTA -->
-	<div id="CTA" class="section md-padding">
-		<!-- Container -->
-		<div class="container sm-padding">
-			<!-- Row -->
-			<div class="row white-text middle">
-        <div class="col-md-5 col-xs-12 col-sm-8">
-          <h3 class="white-text">Empieza ya mismo</h3>
-          <h4 class="white-text">Lleva tu comunidad al siguiente nivel. Crea tu cuenta gratuita ya mismo.</h4>
-        </div>
-        <div class="col-md-5 col-xs-12">
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" required placeholder="Escribe tu correo">
-            </div>
-            <a href>
-              <button class="white-btn">Empezar</button>
-            </a>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept3" type="checkbox" required>
-              <label for="accept3" class="support-text">Acepto la política de privacidad y las condiciones de uso</label>
-            </div>
-          </form>
-        </div>
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /CTA -->
+			<!-- /Clients -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /Home -->
 
 	<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-light">

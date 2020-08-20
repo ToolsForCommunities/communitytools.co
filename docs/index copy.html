@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html data-attr-t lang-t="html_lang">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title data-t>title</title>
+	<title>Community Tools</title>
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 
 	<!-- Font Awesome Icon -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 
 	<!-- favicon -->
 	<link rel="icon" href="favicon.ico">
 
 	<!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Localize the website -->
 	<!-- <script type="text/javascript" src="js/locale.js"></script> -->
@@ -38,6 +37,35 @@
     gtag('config', 'UA-158586273-1');
   </script>
 
+	<!-- Start of Async Drift Code -->
+	<script>
+	"use strict";
+
+	!function() {
+	  var t = window.driftt = window.drift = window.driftt || [];
+	  if (!t.init) {
+	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+	    t.factory = function(e) {
+	      return function() {
+	        var n = Array.prototype.slice.call(arguments);
+	        return n.unshift(e), t.push(n), t;
+	      };
+	    }, t.methods.forEach(function(e) {
+	      t[e] = t.factory(e);
+	    }), t.load = function(t) {
+	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+	      var i = document.getElementsByTagName("script")[0];
+	      i.parentNode.insertBefore(o, i);
+	    };
+	  }
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('dirv86fgr372');
+	</script>
+	<!-- End of Async Drift Code -->
+
 </head>
 
 <body>
@@ -46,12 +74,12 @@
   <div class="cookies-banner">
     <div class="container">
       <div>
-        <span data-t>cookiePolicy.text</span>
-        <a href="cookies.html" class="cookies-read" data-t>cookiePolicy.readMore</a>.
+        <span>¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.</span>
+        <a href="cookies.html" class="cookies-read">Leer la política de cookies</a>.
       </div>
       <a href="#" class="cookies-accept">
         <button class="white-btn">
-            <span data-t>cookiePolicy.accept</span>
+            <span>Me parece bien</span>
         </button>
       </a>
     </div>
@@ -84,13 +112,13 @@
           <!-- /Login mobile -->
 					<!-- Products (desktop only) -->
 					<li class="hidden-xs hidden-sm">
-  					<a href="about.html" data-t>Why us?</a>
+  					<a href="about.html">Why us?</a>
 					</li>
 					<li class="hidden-xs hidden-sm">
-						<a href="about.html" data-t>Support</a>
+						<a href="about.html">Support</a>
 					</li>
 					<li class="hidden-xs hidden-sm">
-  					<a href="about.html" data-t>Collaborate</a>
+  					<a href="about.html">Collaborate</a>
 					</li>
           <!-- /Products -->
           <!-- CTAs -->
@@ -102,7 +130,7 @@
           </li> -->
           <li>
             <a href="mailto:hi@communitytools.co">
-              <button class="outline-btn" data-t>Get in touch</button>
+              <button class="outline-btn">Get in touch</button>
             </a>
           </li>
           <!-- /CTAs -->
@@ -119,20 +147,20 @@
     <!-- container -->
     <div class="container">
 			<!--  -->
-      <div class="row">
+      <div class="row middle">
         <!-- home content -->
-        <div class="col-md-6 col-sm-8 text-center">
-          <h1 class="black-text" data-t>home.heading</h1>
-          <p class="black-text" data-t>home.value</p>
-					<a href="">
+        <div class="col-md-6 col-sm-8">
+          <h1 class="black-text">Conoce a toda tu comunidad</h1>
+          <p class="black-text">Nuestras herramientas te ayudan a encontrar a las personas con las que querrás hablar, filtrando por título, habilidades o industria.</p>
+					<a href>
 						<button class="main-btn">
-              <i class="material-icons">add</i>
-              <span data-t>cta.create</span>
+                <i class="material-icons">add</i>
+                <span>Crear directorio</span>
 						</button>
 					</a>
         </div>
-        <div class="col-md-10 col-sm-8 col-xs-12">
-          <img class="responsive-img" src="img/directory.png" alt="product screenshot"/>
+        <div class="col-md-6 col-sm-8 col-xs-12">
+          <img class="responsive-img" src="img/directory.png" alt="product screenshot">
         </div>
         <!-- /home content -->
       </div>
@@ -180,15 +208,15 @@
 					<!-- footer logo -->
 					<div class="footer-logo">
             <img src="img/logo.svg" alt="logo">
-						<h4 data-t>home.heading</h4>
+						<h4>Conoce a toda tu comunidad</h4>
 					</div>
 					<!-- /footer logo -->
           <div class="footer-follow">
-            <a href="privacy.html" data-t>privacy</a>
+            <a href="privacy.html">Privacidad</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="tos.html" data-t>tos</a>
+            <a href="tos.html">Términos y condiciones</a>
             &nbsp;&nbsp;&nbsp;
-            <a href="cookies.html" data-t>cookies</a>
+            <a href="cookies.html">Política de cookies</a>
           </div>
           <!-- Social links -->
           <div class="footer-follow">

@@ -4,7 +4,8 @@
   "nav": {
     "discover": "Discover",
     "connect": "Connect",
-    "automate": "Automate"
+    "automate": "Automate",
+    "about": "About"
   },
   "cta": {
     "account": "Log In",
@@ -14,7 +15,7 @@
     "addToSlack": "Add to Slack",
     "addToDiscord": "Añadir a Discord",
     "mail": "Write your mail",
-    "create": "Create directory",
+    "create": "Create free directory",
     "demo": "See demo",
     "notify": "Notify me"
   },
