@@ -4,7 +4,8 @@
   "nav": {
     "discover": "Discover",
     "connect": "Connect",
-    "automate": "Automate"
+    "automate": "Automate",
+    "about": "About"
   },
   "cta": {
     "account": "Log In",
@@ -14,7 +15,7 @@
     "addToSlack": "Add to Slack",
     "addToDiscord": "Añadir a Discord",
     "mail": "Write your mail",
-    "create": "Create directory",
+    "create": "Create free directory",
     "demo": "See demo",
     "notify": "Notify me"
   },
@@ -48,11 +49,20 @@
   "followUs": "Follow us:",
   "privacy": "Privacy",
   "tos": "Terms & Conditions",
-  "cookies": "Cookie policy",
   "cookiePolicy": {
     "text": "¡Hi! To build better products for you, we use our own cookies as well as 3rd parties",
     "accept": "I'm ok with that",
     "readMore": "Read cookie policy"
+  },
+  "cookies": {
+    "policy": "Cookie Policy",
+    "heading": "What's a cookie?",
+    "explanation": "A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way they use their equipment, they can be used to recognize the user.",
+    "typesHeading": "What types of cookies does this website use?",
+    "typesExplanation": "Google Analytics: Analytic cookies, are those that are well treated by us or by third parties, allow us to quantify the number of users and thus carry out the measurement and statistical analysis of the use made by users of the service offered.<br>For this, their browsing is analyzed in our website in order to improve the products or services that we offer you.",
+    "removeHeading": "Revocation and elimination of cookies",
+    "removeExplanation": "You can allow, block or delete the cookies installed on your computer by configuring the browser options installed on your computer.",
+    "cookiesGoogle": "More information about Google cookies"
   },
   "startToday": "Get started right now",
   "cta2": "Take your community to the next level. Create your free account today.",

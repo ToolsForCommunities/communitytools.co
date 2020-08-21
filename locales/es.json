@@ -1,10 +1,11 @@
 {
-  "html_lang": "en",
+  "html_lang": "es",
 	"title": "Community Tools",
   "nav": {
     "discover": "Descubre",
     "connect": "Conecta",
-    "automate": "Automatiza"
+    "automate": "Automatiza",
+    "about": "About"
   },
   "cta": {
     "account": "Acceder",
@@ -48,11 +49,20 @@
   "followUs": "Síguenos:",
   "privacy": "Privacidad",
   "tos": "Términos y condiciones",
-  "cookies": "Política de cookies",
   "cookiePolicy": {
     "text": "¡Hola! Para descubrir como hacer un producto mejor para ti, usamos cookies propias y de terceros.",
     "accept": "Me parece bien",
     "readMore": "Leer la política de cookies"
+  },
+  "cookies": {
+    "policy": "Política de cookies",
+    "heading": "¿Qué son las cookies?",
+    "explanation": "Una cookie es un fichero que se descarga en tu ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario.",
+    "typesHeading": "¿Qué tipos de cookies utiliza esta página web?",
+    "typesExplanation": "Google Analytics: Cookies analiticas, son aquéllas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado.<br>Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que le ofrecemos.",
+    "removeHeading": "Revocación y eliminación de cookies",
+    "removeExplanation": "Puedes permitir, bloquear o eliminar las cookies instaladas en tu ordenador mediante la configuración de las opciones del navegador instalado en tu ordenador.",
+    "cookiesGoogle": "Más información sobre cookies de Google"
   },
   "startToday": "Empieza ya mismo",
   "cta2": "Lleva tu comunidad al siguiente nivel. Crea tu cuenta gratuita ya mismo.",
