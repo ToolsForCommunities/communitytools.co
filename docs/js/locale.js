@@ -1,7 +1,7 @@
 /**
  * Language chooser
  */
-console.log('Localizing...');
+// console.log('Localizing...');
 
 // Config. Everything in lower case, please.
 var LOCALES = ['en', 'es'];	// Available locales
