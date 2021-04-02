@@ -26,7 +26,7 @@
   rel="stylesheet">
 
 	<!-- Localize the website -->
-	<script type="text/javascript" src="js/locale.js"></script>
+	<!-- <script type="text/javascript" src="js/locale.js"></script> -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158586273-1"></script>
@@ -37,35 +37,6 @@
 
     gtag('config', 'UA-158586273-1');
   </script>
-
-	<!-- Start of Async Drift Code -->
-	<script>
-	"use strict";
-
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-	    t.factory = function(e) {
-	      return function() {
-	        var n = Array.prototype.slice.call(arguments);
-	        return n.unshift(e), t.push(n), t;
-	      };
-	    }, t.methods.forEach(function(e) {
-	      t[e] = t.factory(e);
-	    }), t.load = function(t) {
-	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-	      var i = document.getElementsByTagName("script")[0];
-	      i.parentNode.insertBefore(o, i);
-	    };
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('dirv86fgr372');
-	</script>
-	<!-- End of Async Drift Code -->
 
 </head>
 
@@ -111,17 +82,11 @@
             </a>
           </li> -->
           <!-- /Login mobile -->
-          <!-- Products (desktop only) -->
-					<li class="hidden-xs hidden-sm">
-  					<a href="#discover" data-t>nav.discover</a>
-					</li>
-					<li class="hidden-xs hidden-sm">
-  					<a href="#connect" data-t>nav.connect</a>
-					</li>
-					<li class="hidden-xs hidden-sm">
-  					<a href="#automate" data-t>nav.automate</a>
-					</li>
-          <!-- /Products -->
+					<!-- Products (desktop only) -->
+					<!-- <li class="hidden-xs hidden-sm">
+						<a href="#automate" data-t>See Directory demo</a>
+					</li> -->
+					<!-- /Products -->
           <!-- CTAs -->
           <!-- <li class="hidden-xs" style="padding-right: 0px; padding-left: 16px;">
             <button class="outline-btn" data-t>cta.account</button>
@@ -153,7 +118,7 @@
         <div class="col-md-6 col-sm-8">
           <h1 class="black-text" data-t>home.heading</h1>
           <p class="black-text" data-t>home.value</p>
-          <form class="navbar-form" role="search">
+          <!-- <form class="navbar-form" role="search">
             <div class="form-group">
               <input type="email" class="form-control" data-attr-t placeholder-t="cta.mail" required>
             </div>
@@ -165,7 +130,13 @@
               <input id="accept1" type="checkbox" required>
               <label for="accept1" class="support-text" data-t>supportingText</label>
             </div>
-          </form>
+          </form> -->
+					<div>
+						<button class="outline-btn" onclick="location.href='https://tlv.gfs.directory/#/directory'" type="button" data-t>cta.demo</button>
+						<a href="#CTA">
+							<button class="main-btn" data-t>cta.startNow</button>
+						</a>
+					</div>
         </div>
         <div class="col-md-6 col-sm-8 col-xs-12">
           <img class="responsive-img" src="img/main.png" alt="product screenshot"/>
@@ -190,6 +161,11 @@
 				</div> -->
 				<!-- /Section header -->
 				<!-- content -->
+				<!-- Section header -->
+				<!-- <div class="section-header text-center">
+					<h3 class="title">Trusted by</h3>
+				</div> -->
+				<!-- /Section header -->
         <div class="centered-logos">
           <div class="col-md-2 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/google.png" alt="Google for Startups">
@@ -203,20 +179,18 @@
           <div class="col-md-2 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/gazaskygeeks.png" alt="Gaza Sky Geeks">
           </div>
-        </div>
-				<div class="centered-logos">
           <div class="col-md-2 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/tetuanvalley.png" alt="Tetuan Valley">
           </div>
           <div class="col-md-2 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/seedrocket.png" alt="SeedRocket">
           </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
+          <!-- <div class="col-md-3 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/osw.png" alt="Open Source Weekends">
           </div>
-          <div class="col-md-2 col-xs-4 col-sm-2 work">
+          <div class="col-md-3 col-xs-4 col-sm-2 work">
             <img class="img-responsive" src="img/clients/collisions.png" alt="Collisions">
-          </div>
+          </div> -->
 				</div>
 				<!-- <div class="text-center">
   				<h5>More than 789 people connected in 2019</h5>
@@ -229,209 +203,37 @@
 	</div>
 	<!-- /Clients -->
 
-	<!-- Tools -->
-	<div id="tools" class="section md-padding bg-grey">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row">
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title" data-t>features.heading</h2>
-				</div>
-				<!-- /Section header -->
-				<!-- Content -->
-        <div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#discover">
-                <img class="responsive-img" src="img/directory-poster.png" />
-                <h3 data-t>features.first</h3>
-                <p data-t>features.firstExplanation</p>
-                <button class="text-btn" data-t>features.readMore</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#connect">
-                <img class="responsive-img" src="img/bot-poster.png" />
-                <h3 data-t>features.second</h3>
-                <p data-t>features.secondExplanation</p>
-                <button class="text-btn" data-t>features.readMore</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="about">
-              <a href="#automate">
-                <img class="responsive-img" src="img/assistant-poster.png" />
-                <h3 data-t>features.third</h3>
-                <p data-t>features.thirdExplanation</p>
-                <a href="#automate"><button class="text-btn" data-t>features.readMore</button></a>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Tools -->
-
-	<!-- Directory -->
-	<div id="discover" class="section md-padding">
-		<!-- Container -->
-		<div class="container">
-      <!-- Row -->
-			<div class="row middle">
-				<!-- Content -->
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-              <i class="material-icons">search</i>
-              <h5 class="supporting-title" data-t>nav.discover</h5>
-            </div>
-            <h2 class="title" data-t>discover.heading</h2>
-					</div>
-					<h4 data-t>discover.explanation</h4>
-          <!-- temporal fix -->
-          <img class="responsive-img hidden-md hidden-lg" src="img/directory.png" alt="directory screenshot" />
-          <!-- / -->
-          <buttons>
-            <a href="https://madrid.gfs.directory/#/directory" target="_blank" style="display: flex;">
-              <button class="outline-btn" data-t>cta.demo</button>
-            </a>
-            <a href="#CTA" style="display: flex;">
-              <button class="main-btn">
-                <i class="material-icons">add</i>
-                <span data-t>cta.create</span>
-              </button>
-            </a>
-          </buttons>
-				</div>
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/directory.png" alt="directory screenshot" />
-				</div>
-        <!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Directory -->
-
-	<!-- Slackbot -->
-	<div id="connect" class="section md-padding bg-grey">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row middle">
-				<!-- Content -->
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/bot.png" alt="slack bot screenshot"/>
-				</div>
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-                <i class="material-icons">people</i>
-              <h5 class="supporting-title" data-t>nav.connect</h5>
-            </div>
-						<h2 class="title" data-t>connect.heading</h2>
-					</div>
-					<h4 data-t>connect.explanation</h4>
-          <!-- temporal fix -->
-          <img class="responsive-img hidden-md hidden-lg" src="img/bot.png" alt="slack bot screenshot" />
-          <buttons>
-            <a href="#CTA" style="display: flex;">
-              <button class="main-btn"><i class="fab fa-slack"></i><span data-t>cta.addToSlack</span></button>
-            </a>
-						<a href="#CTA" style="display: flex;">
-							<button class="main-btn"><i class="fab fa-discord"></i><span data-t>cta.addToDiscord</span></button>
-						</a>
-          </buttons>
-				</div>
-				<!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Slackbot -->
-
-  <!-- Assitant -->
-	<div id="automate" class="section md-padding">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row middle">
-			  <!-- Content -->
-				<div class="col-md-6 col-sm-8">
-					<div class="section-header">
-            <div class="section-icon">
-              <i class="material-icons">bubble_chart</i>
-              <h5 class="supporting-title" data-t>nav.automate</h5>
-            </div>
-						<h2 class="title" data-t>automate.heading</h2>
-					</div>
-					<h4 data-t>automate.explanation</h4>
-          <img class="responsive-img hidden-md hidden-lg" src="img/assistant.png" alt="" />
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" data-attr-t placeholder-t="cta.mail" required>
-            </div>
-              <button class="main-btn" data-t>cta.notify</button>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept2" type="checkbox" required>
-              <label for="accept2" class="support-text" data-t>supportingText</label>
-            </div>
-          </form>
-				</div>
-				<div class="col-md-6 col-sm-8 hidden-xs hidden-sm">
-          <img class="responsive-img" src="img/assistant.png" alt="assitant screenshot"/>
-				</div>
-				<!-- /Content -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /Assitant -->
-
 	<!-- CTA -->
-	<div id="CTA" class="section md-padding">
-		<!-- Container -->
-		<div class="container sm-padding">
-			<!-- Row -->
-			<div class="row white-text middle">
-        <div class="col-md-5 col-xs-12 col-sm-8">
-          <h3 class="white-text" data-t>startToday</h3>
-          <h4 class="white-text" data-t>cta2</h4>
-        </div>
-        <div class="col-md-5 col-xs-12">
-          <form class="navbar-form" role="search">
-            <div class="form-group">
-              <input type="email" class="form-control" data-attr-t placeholder-t="cta.mail" required>
-            </div>
-            <a href="">
-              <button class="white-btn" data-t>cta.startNow</button>
-            </a>
-            <div class="line-break"></div>
-            <div class="check">
-              <input id="accept3" type="checkbox" required>
-              <label for="accept3" class="support-text" data-t>supportingText</label>
-            </div>
-          </form>
-        </div>
+<div id="CTA" class="section md-padding">
+	<!-- Container -->
+	<div class="container sm-padding">
+		<!-- Row -->
+		<div class="row white-text middle">
+			<div class="col-md-5 col-xs-12 col-sm-8">
+				<h3 class="white-text" data-t>startToday</h3>
+				<h4 class="white-text" data-t>cta2</h4>
 			</div>
-			<!-- /Row -->
+			<div class="col-md-5 col-xs-12">
+				<form class="navbar-form" role="search">
+					<div class="form-group">
+						<input type="email" class="form-control" data-attr-t placeholder-t="cta.mail" required>
+					</div>
+					<a href="">
+						<button class="white-btn" data-t>cta.startNow</button>
+					</a>
+					<div class="line-break"></div>
+					<div class="check">
+						<input id="accept3" type="checkbox" required>
+						<label for="accept3" class="support-text" data-t>supportingText</label>
+					</div>
+				</form>
+			</div>
 		</div>
-		<!-- /Container -->
+		<!-- /Row -->
 	</div>
-	<!-- /CTA -->
+	<!-- /Container -->
+</div>
+<!-- /CTA -->
 
 	<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-light">
