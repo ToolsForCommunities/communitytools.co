@@ -5,13 +5,14 @@
   "main": "",
   "scripts": {
     "build": "gulp build",
-    "start": "gulp"
+    "start": "gulp",
+    "serve": "serve docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "serve": "^11.2.0"
+    "serve": "^11.3.2"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

@@ -13,7 +13,7 @@
 			scrollTop: $(this.hash).offset().top
 		}, 600);
 	});
-  
+
   $("a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
@@ -32,7 +32,7 @@
 
 	$('form').on('submit', function (e) {
 		e.preventDefault();
-		
+
 		var button = $(this).find('button');
 		var emailField = $(this).find('input[type="email"]');
 
@@ -56,12 +56,14 @@
 		button.prop("disabled", true);
 
 		setTimeout(function () {
-			button.text('Done!');
+			// button.text('Done!');
+
+			redirectTo('success.html');
 
 			emailField.val('');
 			emailField.prop("disabled", false);
 			button.prop("disabled", false);
-			
+
 			setTimeout(function () {
 				button.text(buttonText);
 			}, 1500);
@@ -73,9 +75,17 @@
 		return re.test(String(email).toLowerCase());
 	}
 
+	function redirectTo(to) {
+		var url = window.location.href;
+		var arr = url.split("/");
+		var newUrl = `${arr[0]}//${arr[2]}/${to}`;
+
+		document.location = newUrl;
+}
+
 	// Track dynamic events
 	$('*[data-track]').on('click', trackClick);
-	
+
 	/** trackClick
 	 *	Send to analytics an event
 	 *	 - data-track="EVENT_NAME"

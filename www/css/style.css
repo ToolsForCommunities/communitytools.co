@@ -129,6 +129,28 @@
 
 /*** GENERAL ***/
 
+/* .success-img {
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+} */
+
+.flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.confirmation {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
 #home {
   padding-top: 56px;
 }
