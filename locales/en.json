@@ -66,5 +66,10 @@
   },
   "startToday": "Get started right now",
   "cta2": "Take your community to the next level. Create your free account today.",
-  "contact": "Get in touch"
+  "contact": "Get in touch",
+  "confirmation": {
+    "title": "Welcome aboard!",
+    "subtitle": "You'll receive a mail from one of our agents to help you get started.",
+    "cta": "Open my email"
+  }
 }

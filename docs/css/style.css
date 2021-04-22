@@ -129,8 +129,16 @@
 
 /*** GENERAL ***/
 
+.mt-4 {
+  margin-top: 16px;
+}
+
+.main-btn.focus, .main-btn:focus, .main-btn:hover {
+  color: white;
+}
+
 .success-img {
-  -webkit-filter: drop-shadow(0px 16px 56px rgba(0,0,0,0.21));
+  -webkit-filter: drop-shadow(0px 16px 56px rgba(0,0,0,0.21))
 }
 
 .flex {
@@ -146,7 +154,8 @@
 }
 
 .confirmation {
-  min-height: 80vh;
+  min-height: 100vh;
+  padding-top: 0px !important;
   display: flex;
   align-items: center;
 }
@@ -993,10 +1002,6 @@ footer h5 {
       align-content: center;
       width: 100%;
     }
-
-  .btn.focus, .btn:focus, .btn:hover {
-    color: white;
-  }
 
   #home {
     padding-bottom: 40px;

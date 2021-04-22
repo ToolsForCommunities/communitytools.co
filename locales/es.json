@@ -66,5 +66,10 @@
   },
   "startToday": "Empieza ya mismo",
   "cta2": "Lleva tu comunidad al siguiente nivel. Crea tu cuenta gratuita ya mismo.",
-  "contact": "Contacto"
+  "contact": "Contacto",
+  "confirmation": {
+    "title": "Ya casi estás",
+    "subtitle": "Enseguida te llegará un correo de uno de nuestros agentes para ayudarte a empezar.",
+    "cta": "Ir a mi correo"
+  }
 }
