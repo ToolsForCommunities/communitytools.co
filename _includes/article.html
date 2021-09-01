@@ -1,0 +1,52 @@
+<div class="article blog col col-6 col-t-6 col-m-12 mb-2 pb-2">
+
+  <div class="article__inner flex">
+
+    <!-- <div class="article__head">
+    </div> -->
+
+    <div class="article__content mr-lg-3">
+      <!-- Title + subtitle -->
+      <div>
+        <h2 class="article__title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 80 }}{% endif %}</p>
+      </div>
+      <!-- /Title + subtitle -->
+
+      <!-- Time + Tag -->
+      <div class="">
+
+        <time class="article__date mr-1" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+        
+        <!-- {% if post.tags != 0 %}
+        <span>·</span>
+        {% endif %} -->
+
+        {% for tag in post.tags %}
+          {% assign tag_slug = tag | slugify: "raw" %}
+          <a 
+            class="tag-link tag" 
+            href="{{ site.baseurl }}/tags#{{ tag }}"
+            rel="category tag">
+              {{ tag }}
+          </a>
+        {% endfor %}
+
+      </div>
+      <!-- /Time + Tag -->
+
+    </div>
+
+    {% if post.image %}
+    <div class="img-container" href="{{post.url | prepend: site.baseurl}}">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+      </a>
+    </div>
+    {% endif %}
+
+  </div>
+
+</div>

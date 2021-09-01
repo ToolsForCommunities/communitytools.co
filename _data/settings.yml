@@ -1,0 +1,340 @@
+#-------------------------------
+# Site Settings
+title: Community Tools
+logo: # You can add own logo. For example '/images/logo.png'.
+author: 
+description: Activate your community
+
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    # - title: 'Home'
+    #   url: '/'
+    - title: 'Directory'
+      url: '/work/'
+    - title: 'Help'
+      url: '/intercom.help/communitytools'
+    - title: 'Pricing'
+      url: '/pricing/'
+    - title: 'About'
+      url: '/about/'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Activate your community and gather data insights
+  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="/blog">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
+
+
+#-------------------------------
+# Upcoming talk
+upcoming__talk: 
+  - image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F137099023%2F314386638610%2F1%2Foriginal.20210531-075555?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1024%2C512&s=c8acced3645dad663ec42af60b385a21
+    title: "Tetuan Valley Startup School: Product development & UX"
+    description: We will talk about the most optimal way to develop and design your product in order to make it more attractive and construct it in a correct way.
+    cta: Get your ticket
+    url: https://www.eventbrite.es/e/tetuan-valley-startup-school-product-development-ux-tickets-157033584679
+
+
+#-------------------------------
+# Now
+now:
+  now__title: Now
+  now__subtitle: test
+  now__content:
+    - # image: /images/commit-sans.jpg
+      # title: 🧱
+      description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
+      url: https://commitsans.com/
+      cta: It's a Commit-ment
+
+    - # image: /images/work/gfs-directory/campus-london.jpg
+      # title: 👷‍♂️
+      description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
+      url: https://communitytools.co/
+      cta: More like Commu-nice-ty Tools
+
+    - 
+      # title: 📚
+      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft (for free)
+      url: https://www.notion.so/ivosdesignresources/Base-de-conocimiento-84f716996d8c4d1ba5bbf890b5d9527f
+      cta: Open source that sh*t
+
+    -
+      # title: 🎸🎤🎻
+      description: Writing and recording a death metal album with symphonic elements and weird shit.
+      url: https://www.instagram.com/stories/highlights/17861653984282824/
+      cta: Does it djent?
+
+    -
+      # title: 🎮
+      description: Developing a game called <strong>Trash Slayer</strong>. Learning to use Unity is a real pain in the ass.
+      url: https://twitter.com/i/events/1407614424538566656
+      cta: Player 1 Press Start
+
+
+#-------------------------------
+# Portfolio
+portfolio:
+  portfolio__title: Portfolio
+  portfolio__subtitle: cool stuff people pay me to do, talks and workshops, personal projects
+  portfolio__gallery:
+
+    - image: /images/work/gfs-directory-old.png
+      title: Google for Startups Madrid
+      description: A digital roster to help people connect
+      client: Google for Startups
+      industry: Community Management
+      url: /work/gfs-directory
+
+    - image: /images/work/no-more-haters.png
+      title: No More Haters
+      description: Games to fight hate speech and fake news
+      client: maldita.es
+      client-logo: https://miro.medium.com/max/844/1*v2mrZKEqqY80h0KpUIr-4Q.jpeg
+      industry: NGO
+      url: /work/no-more-haters
+      # url: https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8
+
+    - image: /images/work/poin.png
+      title: POiN Places
+      description: A city guide for families
+      client: POiN
+      industry: Family and leisure
+      url: /work/poin
+
+    - image: /images/work/arbor.png
+      title: Arbor
+      description: Personal finances made easy
+      client: Arbor Fintech
+      industry: Fintech
+      url: /work/arbor
+
+    - image: /images/work/ringo.png
+      title: Ringo
+      description: Agentless in-person real state tours
+      client: 7r Ventures
+      industry: Real State
+      url: /work/ringo
+
+    - image: /images/work/giv.png
+      title: GIV.
+      description: Each payment, a charitable contribution
+      client: Donna Nairi
+      industry: Fintech
+      url: /work/giv
+
+    - image: /images/work/trenlab.png
+      title: Trenlab Trivia
+      description: Learn about the startup ecosystem
+      client: Trenlab / Wayra
+      industry: Entertainment
+      url: /work/trenlab
+      # url: https://medium.com/products-for-the-people/battle-appgainst-time-8b035b0117d
+
+    # - image: /images/work/domolock.png
+    #   title: Domolock
+    #   description: Technology to ease your everyday
+    #   client: New Net Way
+    #   industry: 
+    #   url: /work/domolock
+
+    - image: /images/work/hocelot.png
+      title: Hocelot
+      description: Helping companies decide better
+      client: Hocelot
+      industry: Fintech
+      url: /work/hocelot
+
+    - image: /images/work/gamify.png
+      title: Gamify
+      description: A new challenge everyday
+      client: 
+      industry: Social Networking
+      url: /work/gamify
+
+    - image: /images/work/cango.png
+      title: Cangopal
+      description: Inventory & shipping made easy
+      client: Cango
+      industry: Logistics
+      url: /work/cango
+
+    - image: /images/work/pvdesign.png
+      title: pvDesign
+      description: The end-to-end software to design and engineer photovoltaic plants
+      client: RatedPower
+      industry: Energy
+      url: /work/RatedPower
+
+
+#-------------------------------
+# Education
+education:
+  education__title: Talks
+  education__subtitle: Learn, build, teach, repeat
+
+  education__list__long:
+
+    # - image: /images/work/education/fictizia-clase.png
+    #   title: Syllabus for the Master in user experience (UX) and graphical user interface design (UI)
+    #   description: It's free. Go get it.
+    #   cta: Learn more
+    #   url: https://fictiziaux.notion.site/Temario-ea5420ebf2a94872a7ba69081da5e1e4
+
+  education__list__short:
+
+    - image: /images/work/pde.png
+      title: Design for non-designers
+      description: From needfinding to user testing (60 minutes)
+      # cta: Book now
+      # cta-2: More info
+      url: https://docs.google.com/presentation/d/1De4haOm8IfKY1whC4tvY7X3ihG2gwieyYyZpThYKHEA/edit?usp=sharing
+
+    - image: /images/work/prototyping.png
+      title: Prototyping 101
+      description: From low fidelity wireframes to Wizard of Oz (60 minutes)
+      # cta: Book now
+      # cta-2: More info
+      url: https://docs.google.com/presentation/d/17TLQhTFh3c3QPHOI0_wgFsP1CgkY19hNNa3McIBnH34/edit?usp=sharing
+
+    - image: /images/work/education/material-design.png
+      title: Intro to Material Design
+      description: History and practice of Google's Design Language (12 hours)
+      # cta: Book now
+      # cta-2: More info
+      url: https://www.figma.com/file/WpYobcp0ooqlbrOckY0uWn/CM_Curso-Material?node-id=14%3A113
+
+
+#-------------------------------
+# Projects
+projects:
+  projects__title: Projects
+  projects__subtitle: Cool stuff I'm not (usually) paid for
+  project__list:
+
+    - image: https://secure.meetupstatic.com/photos/event/3/d/0/a/600_490755626.jpeg
+      title: Open Source Weekends
+      description: A meet up for OSS lovers. I helped with communication and multimedia.
+      tags: community
+      url: https://osweekends.com/
+
+    - image: https://miro.medium.com/max/3750/1*H_LtvjLiddMKwrECYAhZCQ.jpeg
+      title: Collisions Projects
+      description: We organise design critiques, tech mentoring and business education.
+      tags: community
+      url: https://collisionsprojects.com/#/
+
+    - image: /images/free-the-fish.png
+      title: Free the Fish
+      description: A browser extension that helps you detecting and avoiding clickbait.
+      tags: [activism]
+      url: https://chrome.google.com/webstore/detail/free-the-fish/eoffambhmkmcinfjglkhffflpaglbjln
+
+    - image: /images/trash-slayer.png
+      title: Trash Slayer
+      description: A game about slaying possessed trash bags. Coming Soon.
+      tags: videogame
+      url: https://twitter.com/i/events/1407614424538566656
+
+    # - image: /images/fachometro.png
+    #   title: El Fachómetro
+    #   description: Educative game about Spanish History (coming soon)
+    #   tags: videogame
+    #   url: 
+
+    - image: /images/sacred-video.png
+      title: Old Hag's Mask
+      description: I shooted and edited this video for Sacred Wolves, a Stoner Rock band from Madrid.
+      tags: video
+      url: https://www.youtube.com/watch?v=zegNRk_BLoo
+
+    - image: /images/levelup.jpeg
+      title: LevelUp!
+      description: I produced this terrible webseries many, many years ago.
+      tags: video
+      url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
+
+    - image: /images/default.png
+      title: Untitled-Song-01.mp3
+      description: Yeah, that's the name of the song. For now. Send me your feedback!
+      tags: music
+      url: https://drive.google.com/file/d/1C6vHUxU4Z6d7wo0m3ODmya4e_iqeNcdc/view?usp=sharing
+
+
+#-------------------------------
+# Communities
+communities:
+  communities__list:
+
+    - image: 
+      title: Google for Startups
+      description: 
+      tags: 
+      url: https://campus.co/
+
+    - image: 
+      title: Collisions Projects
+      description: 
+      tags: 
+      url: https://collisionsprojects.com/#/
+
+    - image: 
+      title: Open Source Weekends
+      description: 
+      tags: 
+      url: https://osweekends.com/
+
+    - image: 
+      title: Factory Designers Circle
+      description: 
+      tags: 
+      url: https://factoryberlin.zendesk.com/hc/en-us/articles/360022404631-Designers-Circle
+
+
+#-------------------------------
+# Subscribe Settings
+mailchimp:
+  mailchimp__title: Get updates and digital art inspiration # Add your Title
+  mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+  mailchimp__button__text: Subscribe # Add your button text.
+  mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
+
+
+#-------------------------------
+# Footer Settings
+social:
+# - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/ivoriginal"}
+# - {icon: "ion-logo-twitter", color: "#55acee", label: Slides, link: "https://twitter.com/ivoriginal"}
+# - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
+# - {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
+# - {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}
+# - {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "https://instagram.com"}
+# - {icon: "ion ion-logo-vimeo", color: "#1393cd", label: Vimeo, link: "https://vimeo.com"}
+
+# Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: your@email.com # Add your email for contact form
+  description: Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form.
+
+# NOTE
+# Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+# disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+# google-analytics: UA-64206750-1

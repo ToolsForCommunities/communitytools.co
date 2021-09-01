@@ -22,4 +22,19 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< Updated upstream
 package-lock.json
+=======
+
+_site
+.DS_Store
+.jekyll
+.jekyll-cache
+.jekyll-metadata
+.bundle
+.sass-cache
+.vscode
+Gemfile
+Gemfile.lock
+node_modules
+>>>>>>> Stashed changes

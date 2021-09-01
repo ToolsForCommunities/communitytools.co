@@ -1,0 +1,214 @@
+/* Hero */
+.hero {
+  background-color: white;
+  padding: 80px 0 56px 0;
+  border-bottom: 1px solid var(--medium-gray);
+  text-align: center;
+
+  .hero__description a {
+    // border-bottom: 2px solid var(--gray);
+    background: var(--medium-gray);
+    padding: 0px 4px;
+  }
+
+  // adjust home button position
+  .button {
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  .avatar {
+    // 
+    @media only screen and (max-width: $desktop) {
+      align-self: center;
+      margin-top: 48px;
+    }
+  
+    // 
+    @media only screen and (max-width: $mobile) {
+      margin-top: 40px;
+    }
+  }
+
+  // 
+  @media only screen and (min-width: $desktop) {
+    // fixes space between text and button
+    .button {
+      margin-top: 16px;
+    }
+  }
+
+  // 
+  @media only screen and (max-width: $tablet) {
+
+    // fixes space between text and button
+    .button {
+      margin-top: 56px;
+    }
+
+  }
+
+  @media only screen and (max-width: $desktop) {
+    
+    // aligns content and text
+    margin: 0px 0px 32px 0px;
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+    
+    // swaps img and text
+    .row {
+      flex-direction: column-reverse;
+    }
+
+  }
+
+}
+
+// changes link background
+.hero__description a:hover {
+  background-color: var(--gray);
+}
+
+// BLOG
+.header-blog {
+
+  @media only screen and (max-width: $desktop) {
+
+    .main-nav {
+      visibility: hidden !important;
+    }
+
+    .nav__list .nav__item {
+      width: auto;
+    }
+
+  }
+
+}
+
+.hero-blog {
+  padding: 96px 0 48px 0;
+  background-color: #C5E38A;
+
+  @media only screen and (max-width: $desktop) {
+    padding: 96px 0 40px 0;
+    text-align: left;
+  }
+
+  .hero__inner .hero__description {
+    color: black;
+  }
+
+  .hero__description a {
+    background: #E3E28A;
+
+    &:hover {
+      background: #E3D38A;
+    }
+
+  }
+
+  .avatar {
+    -webkit-filter: drop-shadow(0px 16px 24px rgba(0,0,0,0.16));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+
+    @media only screen and (max-width: $desktop) {
+        display: none;
+      }
+  
+    }
+}
+
+// hero adjusted for subsections
+.hero-2, .hero-3 {
+  padding: 104px 0 8px 0;
+
+  .hero__title {
+    margin-bottom: 0px !important;
+  }
+
+  .hero__inner {
+    margin-bottom: 24px;
+  }
+
+}
+
+// 
+.work .hero-2 {
+  padding: 148px 0 24px 0;
+  // padding: 72px 0 32px 0;
+}
+
+.hero-3 {
+  padding: 40px 0 24px 0;
+}
+
+// 
+.hero__inner {
+
+    p {
+      line-height: 1.4;
+    }
+
+  .hero__title {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: var(--heading-font-color);
+
+    // @media only screen and (max-width: 1140px) {
+    //   font-size: 60px;
+    // }
+
+    @media only screen and (max-width: $tablet) {
+      margin-bottom: 16px;
+      font-size: 40px;
+    }
+
+  }
+
+  .hero__description {
+    margin-bottom: 0;
+    font-size: 24px;
+    color: var(--text-alt-color);
+
+    @media only screen and (max-width: $desktop) {
+      font-size: inherit;
+    }
+  }
+}
+
+// 
+.home__title {
+
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: var(--heading-font-color);
+
+  @media only screen and (max-width: $desktop) {
+    margin-bottom: 8px;
+    margin-top: -40px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    // font-size: 32px;
+    font-size: 2rem;
+  }
+
+}
+
+// 
+.avatar {
+  // 
+  @media only screen and (max-width: $desktop) {
+    align-self: center;
+  }
+}
+
+// ivosaurio
+.avatar-2 {
+  width: 100px;
+  margin-right: 16px;
+}
